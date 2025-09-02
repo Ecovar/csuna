@@ -1,6 +1,6 @@
 # syntax=docker.io/docker/dockerfile:1
 # ---- Base Stage ----
-FROM node:22-slim AS base
+FROM node:18-bullseye AS base
 
 # Install dependencies only when needed
 FROM base AS deps
